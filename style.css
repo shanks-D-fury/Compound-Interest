@@ -1,0 +1,56 @@
+.body {
+	background-color: rgb(6, 177, 207);
+	font-weight: 500;
+}
+h1 {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	text-align: center;
+}
+
+h5 {
+	text-align: center;
+}
+
+.card {
+	padding-top: 30px;
+	margin-top: 50px;
+	padding-bottom: 35px;
+	margin-bottom: 90px;
+	width: 40vw;
+	margin-left: 20vw;
+	max-width: 150rem;
+}
+@media (max-width: 600px) {
+	.card {
+		width: 80vw;
+		margin-left: 5vw;
+	}
+}
+#res {
+	color: rgb(85, 82, 82);
+}
+
+.name {
+	color: white;
+}
+
+#title {
+	color: teal;
+}
+body::-webkit-scrollbar {
+	height: 8px;
+	width: 0.55rem;
+}
+body::-webkit-scrollbar-track {
+	background: #f1f1f1;
+	border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: #909090; /* Scrollbar color */
+	border-radius: 10px; /* Rounded edges */
+}
+
+body::-webkit-scrollbar-thumb:hover {
+	background: #6a6a6a; /* Darker on hover */
+}
